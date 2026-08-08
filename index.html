@@ -77,8 +77,7 @@ document.getElementById("orderForm").addEventListener("submit", function(e){
   const phone = document.getElementById("phone").value;
   const address = document.getElementById("address").value;
   const quantity = document.getElementById("quantity").value;
-  const message = `Hello ChargeFlex NG!\n\nI want to order the Fast-Charging USB-C Cable.\n\nName: ${name}\nPhone: ${phone}\nDelivery Location: ${address}\nQuantity: ${quantity}`;
-  window.open("https://wa.me/" + whatsappNumber + "?text=" + encodeURIComponent(message), "_blank");
+  const message = `Hello ChargeFlex NG!\n\nI want to order the Fast-Charging USB-C Cable.\n\nName: ${name}\nPhone: ${phone}\nDelivery Location: ${address}\nQuantity: ${quantity}\nPrice: ₦5,500`;
 });
 </script>
 </body>
